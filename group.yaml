@@ -1,0 +1,91 @@
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.Climate
+    - group.Weather
+homeaudio:
+  name: homeaudio
+  icon: mdi:boombox
+  view: yes
+  entities:
+    - group.speakers
+speakers:
+   - media_player.pk_audio_cast
+   - media_player.office_speakers
+   - media_player.kitchen_speakers
+   - media_player.patio_speakers
+   - media_player.gym_speakers
+television:
+  name: tv
+  icon: mdi:television
+  view: yes
+  entities:
+   - group.video
+video:
+  - media_player.pkcc
+  - media_player.samsung_led65_un65h6300
+#  - media_player.samsung_led48_un48j5200
+#  - media_player.roku_2n003w645135
+#  - media_player.plex
+Climate:
+  - climate.family_room
+  - sun.sun
+  - sensor.moon
+  - sensor.family_room_thermostat_humidity
+Connected:
+  name: connected
+  icon: mdi:access-point-network
+  view: yes
+  entities:
+    - group.devices
+    - group.pihole
+    - group.SpeedTest
+Space:
+  name: space
+  icon: mdi:rocket
+  view: yes
+  entities:
+    - group.ISS
+devices:
+  - device_tracker.chromecast_audio
+  - device_tracker.printer
+  - device_tracker.kindle
+  - device_tracker.laurasair
+  - device_tracker.laurapixel
+  - device_tracker.nest
+  - device_tracker.parkermba
+  - device_tracker.parkermx1w10
+  - device_tracker.parkerpc
+  - device_tracker.pgs6
+  - device_tracker.pkcc
+  - device_tracker.pkn7
+  - device_tracker.samsung42
+  - device_tracker.samsung65
+  - device_tracker.tcl_roku_tv__135
+pihole:
+  - sensor.pihole_ads_blocked_today
+  - sensor.pihole_ads_percentage_blocked_today
+  - sensor.pihole_dns_queries_today
+ChromeCast:
+  - media_player.pkcc
+  - media_player.chromecast_audio
+ISS:
+  - binary_sensor.iss
+  - camera.iss
+SpeedTest:
+  - sensor.speedtest_ping
+  - sensor.speedtest_download
+  - sensor.speedtest_upload
+Weather:
+  - sensor.pws_dewpoint_f
+  - sensor.pws_feelslike_f
+  - sensor.pws_location
+  - sensor.pws_observation_time
+  - sensor.pws_precip_today_in
+  - sensor.pws_pressure_in
+  - sensor.pws_pressure_trend
+  - sensor.pws_relative_humidity
+  - sensor.pws_temperature_string
+  - sensor.pws_weather
+  - sensor.pws_wind_string

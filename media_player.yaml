@@ -1,0 +1,24 @@
+# Powered sub is attached to this zone's preamp out
+- platform: mpr_6zhmaut
+  name: Kitchen Speakers
+  host: !secret mpr_api_ip
+  port: !secret mpr_api_port
+  zone: 11
+- platform: mpr_6zhmaut
+  name: Patio Speakers
+  host: !secret mpr_api_ip
+  port: !secret mpr_api_port
+  zone: 12
+- platform: mpr_6zhmaut
+  name: Office Speakers
+  host: !secret mpr_api_ip
+  port: !secret mpr_api_port
+  zone: 13
+- platform: mpr_6zhmaut
+  name: Gym Speakers
+  host: !secret mpr_api_ip
+  port: !secret mpr_api_port
+  zone: 14
+- platform: cast
+- platform: plex
+  

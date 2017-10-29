@@ -1,0 +1,28 @@
+- platform: pi_hole
+  host: !secret pi_hole_host
+- platform: moon
+- platform: speedtest
+  monitored_conditions:
+    - ping
+    - download
+    - upload
+  hour:
+    - 7
+    - 10
+    - 12
+    - 18
+    - 22
+- platform: wunderground
+  api_key: !secret wg_api
+  monitored_conditions:
+    - dewpoint_f
+    - feelslike_f
+    - location
+    - observation_time
+    - precip_today_in
+    - pressure_in
+    - pressure_trend
+    - relative_humidity
+    - temperature_string
+    - weather
+    - wind_string
