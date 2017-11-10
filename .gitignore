@@ -23,5 +23,10 @@ pyozw.sqlite
 html5_push_registrations.conf
 ip_bans.yaml
 /icloud/*
+<<<<<<< HEAD
 /mpr/*
 /custom_components/*
+=======
+
+
+>>>>>>> 562fbb074d8b53b5b2d3765603171d62292b838d

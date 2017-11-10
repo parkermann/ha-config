@@ -25,9 +25,15 @@ television:
 video:
   - media_player.pkcc
   - media_player.samsung_led65_un65h6300
+<<<<<<< HEAD
   - media_player.samsung_led48_un48j5200
   - media_player.roku_2n003w645135
   - media_player.plex
+=======
+#  - media_player.samsung_led48_un48j5200
+#  - media_player.roku_2n003w645135
+#  - media_player.plex
+>>>>>>> 562fbb074d8b53b5b2d3765603171d62292b838d
 Climate:
   - climate.family_room
   - sun.sun
@@ -88,4 +94,8 @@ Weather:
   - sensor.pws_relative_humidity
   - sensor.pws_temperature_string
   - sensor.pws_weather
+<<<<<<< HEAD
   - sensor.pws_wind_string
+=======
+  - sensor.pws_wind_string
+>>>>>>> 562fbb074d8b53b5b2d3765603171d62292b838d
