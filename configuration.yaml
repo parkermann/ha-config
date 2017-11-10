@@ -35,7 +35,6 @@ nest:
     monitored_conditions:
       - 'humidity'
 
-<<<<<<< HEAD
 #media_player: !include media_player.yaml
 
 media_player:
@@ -55,10 +54,7 @@ media_player:
         name: TV
       6:
         name: Chromecast
-=======
-media_player: !include media_player.yaml
->>>>>>> 562fbb074d8b53b5b2d3765603171d62292b838d
-
+        
 # Allows you to issue voice commands from the frontend in enabled 
 # browsers
 conversation:
