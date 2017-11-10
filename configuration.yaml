@@ -9,6 +9,8 @@ homeassistant:
 
 frontend: 
 
+config:
+
 http:
   # Uncomment this to add a password (recommended!) api_password: 
   # PASSWORD Uncomment this if you are using SSL or running in Docker 
