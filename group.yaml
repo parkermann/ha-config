@@ -25,9 +25,9 @@ television:
 video:
   - media_player.pkcc
   - media_player.samsung_led65_un65h6300
-#  - media_player.samsung_led48_un48j5200
-#  - media_player.roku_2n003w645135
-#  - media_player.plex
+  - media_player.samsung_led48_un48j5200
+  - media_player.roku_2n003w645135
+  - media_player.plex
 Climate:
   - climate.family_room
   - sun.sun
