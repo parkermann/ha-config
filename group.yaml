@@ -4,6 +4,7 @@ default_view:
   entities:
     - group.Climate
     - group.Weather
+    - group.Lights
 homeaudio:
   name: homeaudio
   icon: mdi:boombox
@@ -33,6 +34,8 @@ Climate:
   - sun.sun
   - sensor.moon
   - sensor.family_room_thermostat_humidity
+Lights:
+  - light.office
 Connected:
   name: connected
   icon: mdi:access-point-network

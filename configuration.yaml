@@ -56,6 +56,7 @@ media_player:
         name: TV
       6:
         name: Chromecast
+  - platform: plex
         
 # Allows you to issue voice commands from the frontend in enabled 
 # browsers
@@ -81,6 +82,11 @@ tts:
   platform: google
 
 #hello_state:
+
+light:
+  - platform: decora_wifi
+    username: parkermann@hotmail.com
+    password: !secret leviton
   
 camera:
   name: ISS
