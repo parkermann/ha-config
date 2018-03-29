@@ -39,7 +39,7 @@ nest:
 
 #media_player: !include media_player.yaml
 
-media_player:
+media_player monoprice:
   - platform: monoprice
     port: /dev/ttyUSB0
     zones:
@@ -56,6 +56,7 @@ media_player:
         name: TV
       6:
         name: Chromecast
+media_player plex:
   - platform: plex
         
 # Allows you to issue voice commands from the frontend in enabled 
